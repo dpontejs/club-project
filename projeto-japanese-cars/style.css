@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica;
+    margin-left: 0;
+}
+
+html {
+    max-width: 1920px;
+    max-height: auto;
+    font-size: 10px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+nav {
+    display: inline-flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    height: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.title {
+    display: inline-flex;
+    width: 100%;
+    padding: 5% 0%;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img8.jpeg");
+    background-size: cover;
+}
+
+.title h1 {
+    color: rgb(254, 254, 254);
+}
+
+nav h5 {
+    margin: 2%;    
+    color: rgb(254, 254, 254)
+} 
+
+.opening {
+    padding-left: 2%;
+    padding: 5%;
+}
+
+.opening p {
+    font-size: 1.5em;
+}
+
+.first-images {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.quote {
+    padding-left: 2%;
+    padding: 10% 5%;
+    background-color: rgb(0, 0, 0); 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quote p.q {
+    color: rgb(254, 254, 254);
+    font-size: 3rem;
+}
+
+.quote p.name {
+    color: rgb(254, 254, 254);
+    font-size: 1.5em;
+}
+
+.second-images {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.join {
+    display: flex;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.join h1 {
+    font-size: 3.2rem;
+}
+
+.image3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.image3 img {
+    width: 80%;
+}
+
+.meet {
+    display: flex;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.meet h1 {
+    font-size: 3.2rem;
+}
+
+footer {
+    display: inline-flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+}
+
+footer h5 {
+    color: rgb(254, 254, 254);
+    margin: 2%;
+}
